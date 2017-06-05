@@ -6,14 +6,9 @@
       <class name="testclasses.GTest">
         <methods>
           <include name="customerAddedSuccessfully"/>
-          <include name="loginWithCredential"/>
           <include name="addNewAc"/>
           <include name="editCustomer"/>
-          <include name="addNewCustomer"/>
           <include name="deleteCustomer"/>
-          <include name="registration"/>
-          <include name="verifyManagerId"/>
-          <include name="verifyHomePage"/>
           <include name="setup"/>
         </methods>
       </class> <!-- testclasses.GTest -->

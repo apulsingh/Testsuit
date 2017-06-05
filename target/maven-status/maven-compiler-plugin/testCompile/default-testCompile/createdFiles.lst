@@ -4,6 +4,7 @@ testclasses\TestClass.class
 testclasses\irctcSearchResult.class
 resource\DynamicResource.class
 testclasses\IFrame.class
+testclasses\Dataportfolio.class
 dsur\dsurSuite.class
 testclasses\MouseActions.class
 testclasses\GTest.class

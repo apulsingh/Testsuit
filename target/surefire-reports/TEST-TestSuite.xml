@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.602" tests="10" errors="0" skipped="9" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="87.038" tests="9" errors="0" skipped="0" failures="4">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_45\jre\bin"/>
@@ -26,9 +26,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="classworlds.conf" value="F:\NEW_MVNWorkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2294843128333658380.tmp"/>
+    <property name="classworlds.conf" value="F:\NEW_MVNWorkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5912117956987268983.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_45\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Java/bin/server;C:/Java/bin;C:/Java/lib/amd64;C:\Program Files\Java\jdk1.8.0_45_xx\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Lenovo\FusionEngine;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;D:\apache-maven-3.2.5\bin;C:\Program Files\R\R-3.2.2\bin;C:\Program Files\Java\jdk1.8.0_45\bin;D:\apache-ant-1.9.4\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLI\;C:\Program Files (x86)\Skype\Phone\;C:\Ruby200\bin;C:\Ruby22\bin;C:\Ruby22-x64\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Apache\Maven\bin;C:\Users\averma\AppData\Local\Programs\Git\cmd;C:\Users\averma\AppData\Roaming\npm;D:\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_45\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Java/bin/server;C:/Java/bin;C:/Java/lib/amd64;C:\Program Files\Java\jdk1.8.0_45_xx\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Lenovo\FusionEngine;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;D:\apache-maven-3.2.5\bin;C:\Program Files\R\R-3.2.2\bin;C:\Program Files\Java\jdk1.8.0_45\bin;D:\apache-ant-1.9.4\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLI\;C:\Program Files (x86)\Skype\Phone\;C:\Ruby200\bin;C:\Ruby22\bin;C:\Ruby22-x64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Lenovo\FusionEngine;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;D:\apache-maven-3.2.5\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\R\R-3.2.2\bin;C:\Program Files\Java\jdk1.8.0_60\bin;D:\apache-ant-1.9.4\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Apache\Maven\bin;C:\Users\averma\AppData\Local\Programs\Git\cmd;C:\Users\averma\AppData\Roaming\npm;D:\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,38 +60,68 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="setup" classname="testclasses.GTest" time="1.472">
-    <failure message="org/openqa/selenium/remote/service/DriverService$Builder" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/remote/service/DriverService$Builder
-	at testclasses.GTest.setup(GTest.java:28)
-Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.remote.service.DriverService$Builder
-	at testclasses.GTest.setup(GTest.java:28)
+  <testcase name="registration" classname="testclasses.GTest" time="9.011"/>
+  <testcase name="loginWithCredential" classname="testclasses.GTest" time="16.927"/>
+  <testcase name="verifyHomePage" classname="testclasses.GTest" time="2.176"/>
+  <testcase name="verifyManagerId" classname="testclasses.GTest" time="3.222"/>
+  <testcase name="addNewCustomer" classname="testclasses.GTest" time="11.603"/>
+  <testcase name="customerAddedSuccessfully" classname="testclasses.GTest" time="0.073">
+    <failure message="unexpected alert open: {Alert text : Email Address Already Exist !!}&#10;  (Session info: chrome=58.0.3029.110)&#10;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 15 milliseconds: null&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;Rajat&apos;, ip: &apos;192.168.233.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\averma\AppData\Local\Temp\scoped_dir15528_11265}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 2a3e5d1b4d7f0066dcea318f42cae0a5&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;customer&apos;]/tbody/tr[4]/td[2]}" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : Email Address Already Exist !!}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds: null
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Rajat', ip: '192.168.233.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\averma\AppData\Local\Temp\scoped_dir15528_11265}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 2a3e5d1b4d7f0066dcea318f42cae0a5
+*** Element info: {Using=xpath, value=.//*[@id='customer']/tbody/tr[4]/td[2]}
+	at testclasses.GTest.customerAddedSuccessfully(GTest.java:131)
 </failure>
   </testcase>
-  <testcase name="registration" classname="testclasses.GTest" time="0">
-    <skipped message="org/openqa/selenium/remote/service/DriverService$Builder"/>
+  <testcase name="editCustomer" classname="testclasses.GTest" time="2.049">
+    <failure message="unexpected alert open: {Alert text : Email Address Already Exist !!}&#10;  (Session info: chrome=58.0.3029.110)&#10;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 33 milliseconds: null&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;Rajat&apos;, ip: &apos;192.168.233.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\averma\AppData\Local\Temp\scoped_dir15528_11265}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 2a3e5d1b4d7f0066dcea318f42cae0a5&#10;*** Element info: {Using=link text, value=Edit Customer}" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : Email Address Already Exist !!}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 33 milliseconds: null
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Rajat', ip: '192.168.233.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\averma\AppData\Local\Temp\scoped_dir15528_11265}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 2a3e5d1b4d7f0066dcea318f42cae0a5
+*** Element info: {Using=link text, value=Edit Customer}
+	at testclasses.GTest.editCustomer(GTest.java:151)
+</failure>
   </testcase>
-  <testcase name="loginWithCredential" classname="testclasses.GTest" time="0">
-    <skipped message="org/openqa/selenium/remote/service/DriverService$Builder"/>
+  <testcase name="deleteCustomer" classname="testclasses.GTest" time="2.022">
+    <failure message="unexpected alert open: {Alert text : Email Address Already Exist !!}&#10;  (Session info: chrome=58.0.3029.110)&#10;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10 milliseconds: null&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;Rajat&apos;, ip: &apos;192.168.233.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\averma\AppData\Local\Temp\scoped_dir15528_11265}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 2a3e5d1b4d7f0066dcea318f42cae0a5&#10;*** Element info: {Using=link text, value=Delete Account}" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : Email Address Already Exist !!}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds: null
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Rajat', ip: '192.168.233.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\averma\AppData\Local\Temp\scoped_dir15528_11265}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 2a3e5d1b4d7f0066dcea318f42cae0a5
+*** Element info: {Using=link text, value=Delete Account}
+	at testclasses.GTest.deleteCustomer(GTest.java:171)
+</failure>
   </testcase>
-  <testcase name="verifyHomePage" classname="testclasses.GTest" time="0">
-    <skipped message="org/openqa/selenium/remote/service/DriverService$Builder"/>
-  </testcase>
-  <testcase name="verifyManagerId" classname="testclasses.GTest" time="0">
-    <skipped message="Method GTest.verifyManagerId()[pri:4, instance:testclasses.GTest@3567135c] depends on not successfully finished methods"/>
-  </testcase>
-  <testcase name="addNewCustomer" classname="testclasses.GTest" time="0">
-    <skipped message="org/openqa/selenium/remote/service/DriverService$Builder"/>
-  </testcase>
-  <testcase name="customerAddedSuccessfully" classname="testclasses.GTest" time="0">
-    <skipped message="org/openqa/selenium/remote/service/DriverService$Builder"/>
-  </testcase>
-  <testcase name="editCustomer" classname="testclasses.GTest" time="0">
-    <skipped message="org/openqa/selenium/remote/service/DriverService$Builder"/>
-  </testcase>
-  <testcase name="deleteCustomer" classname="testclasses.GTest" time="0">
-    <skipped message="org/openqa/selenium/remote/service/DriverService$Builder"/>
-  </testcase>
-  <testcase name="addNewAc" classname="testclasses.GTest" time="0">
-    <skipped message="org/openqa/selenium/remote/service/DriverService$Builder"/>
+  <testcase name="addNewAc" classname="testclasses.GTest" time="4.45">
+    <failure message="unknown error: keys should be a string&#10;  (Session info: chrome=58.0.3029.110)&#10;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 239 milliseconds&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;Rajat&apos;, ip: &apos;192.168.233.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\averma\AppData\Local\Temp\scoped_dir15528_11265}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 2a3e5d1b4d7f0066dcea318f42cae0a5" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: keys should be a string
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 239 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Rajat', ip: '192.168.233.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\averma\AppData\Local\Temp\scoped_dir15528_11265}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 2a3e5d1b4d7f0066dcea318f42cae0a5
+	at testclasses.GTest.addNewAc(GTest.java:191)
+</failure>
   </testcase>
 </testsuite>
