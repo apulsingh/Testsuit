@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testclasses.Dataportfolio">
+      <class name="testclasses.FaceBookGrpShare">
         <methods>
-          <include name="loginToApplication"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="updateData"/>
-          <include name="addData"/>
+          <include name="tearDown"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- testclasses.Dataportfolio -->
+      </class> <!-- testclasses.FaceBookGrpShare -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
