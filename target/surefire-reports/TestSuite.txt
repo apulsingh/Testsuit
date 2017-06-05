@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 9, Time elapsed: 2.602 sec <<< FAILURE! - in TestSuite
+setup(testclasses.GTest)  Time elapsed: 1.472 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/openqa/selenium/remote/service/DriverService$Builder
+	at testclasses.GTest.setup(GTest.java:28)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.remote.service.DriverService$Builder
+	at testclasses.GTest.setup(GTest.java:28)
+

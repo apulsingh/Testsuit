@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [test run]">
+  <test name="Simple Test run(failed)">
+    <classes>
+      <class name="testclasses.GTest">
+        <methods>
+          <include name="customerAddedSuccessfully"/>
+          <include name="loginWithCredential"/>
+          <include name="addNewAc"/>
+          <include name="editCustomer"/>
+          <include name="addNewCustomer"/>
+          <include name="deleteCustomer"/>
+          <include name="registration"/>
+          <include name="verifyManagerId"/>
+          <include name="verifyHomePage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testclasses.GTest -->
+    </classes>
+  </test> <!-- Simple Test run(failed) -->
+</suite> <!-- Failed suite [test run] -->
