@@ -103,7 +103,7 @@ public class Dataportfolio
 		   		   
 		    driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		    driver.findElement(By.id("systemCombo")).clear();
-		    driver.findElement(By.id("systemCombo")).sendKeys("Rajasi");
+		    driver.findElement(By.id("systemCombo")).sendKeys("Rajasinhh");
 		    driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
 		    driver.findElement(By.id("nameAndLocationResponse")).clear();
 		    driver.findElement(By.id("nameAndLocationResponse")).sendKeys("test");
@@ -138,7 +138,7 @@ public class Dataportfolio
 		  new Select(driver.findElement(By.id("ddl-update-system-list"))).selectByVisibleText("Testrajatasdwew");
 		  driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
 		    driver.findElement(By.id("systemAlias")).clear();
-		    driver.findElement(By.id("systemAlias")).sendKeys("Rajasi");
+		    driver.findElement(By.id("systemAlias")).sendKeys("Rajasinhh");
 		    driver.findElement(By.id("description")).clear();
 		    driver.findElement(By.id("description")).sendKeys("test description edited");
 		    new Select(driver.findElement(By.id("region"))).selectByVisibleText("Japan");
